@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>忘れ物おみくじ</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎒 忘れ物おみくじ</h1>
+
+    <p>今日はどこへ行く？</p>
+
+    <select id="place">
+        <option value="school">🏫 学校</option>
+        <option value="baito">💼 バイト</option>
+        <option value="club">⚽ 部活</option>
+    </select>
+
+    <br>
+
+    <button onclick="draw()">診断する！</button>
+
+    <div id="result">
+        <h2>🎯 忘れ物診断</h2>
+        <p>「診断する！」を押して今日の持ち物をチェックしよう！</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+  
+ 
+
+</body>
+</html>
